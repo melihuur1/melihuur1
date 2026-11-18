@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="240" viewBox="0 0 800 240" role="img" aria-labelledby="t d">
+  <title id="t">Melih — Yazılım Geliştirici</title>
+  <desc id="d">Backend, gerçek zamanlı sistemler ve geliştirici araçları</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0A1222"/>
+      <stop offset="1" stop-color="#0D1B30"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0.88" cy="0" r="0.62">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0.08" cy="1" r="0.6">
+      <stop offset="0" stop-color="#3B82F6" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#3B82F6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="fade" cx="0.5" cy="0.5" r="0.62">
+      <stop offset="0" stop-color="#fff" stop-opacity="1"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    <mask id="gridMask"><rect width="800" height="240" fill="url(#fade)"/></mask>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#38BDF8" stroke-opacity="0.09" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3B82F6"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#22D3EE" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#3B82F6" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="name" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F8FAFC"/>
+      <stop offset="1" stop-color="#BAE6FD"/>
+    </linearGradient>
+    <clipPath id="card"><rect width="800" height="240" rx="16"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="800" height="240" fill="url(#bg)"/>
+    <rect width="800" height="240" fill="url(#grid)" mask="url(#gridMask)"/>
+    <rect width="800" height="240" fill="url(#glowA)"/>
+    <rect width="800" height="240" fill="url(#glowB)"/>
+    <rect x="120" y="0" width="560" height="1.5" fill="url(#edge)"/>
+
+    <g stroke="#22D3EE" stroke-opacity="0.28" stroke-width="1" fill="none">
+      <path d="M664 64 L708 98 L686 146 L742 172 M708 98 L752 84"/>
+      <path d="M58 92 L104 120 L72 162 L132 184 M104 120 L146 108"/>
+    </g>
+    <g fill="#22D3EE">
+      <circle cx="664" cy="64" r="3" fill-opacity="0.55"/>
+      <circle cx="708" cy="98" r="3.5" fill-opacity="0.8"/>
+      <circle cx="686" cy="146" r="2.5" fill-opacity="0.45"/>
+      <circle cx="742" cy="172" r="3" fill-opacity="0.55"/>
+      <circle cx="752" cy="84" r="2" fill-opacity="0.4"/>
+      <circle cx="58" cy="92" r="2" fill-opacity="0.4"/>
+      <circle cx="104" cy="120" r="3.5" fill-opacity="0.75"/>
+      <circle cx="72" cy="162" r="2.5" fill-opacity="0.45"/>
+      <circle cx="132" cy="184" r="3" fill-opacity="0.55"/>
+      <circle cx="146" cy="108" r="2" fill-opacity="0.4"/>
+    </g>
+  </g>
+  <rect x="0.5" y="0.5" width="799" height="239" rx="15.5" fill="none" stroke="#1E3A5F" stroke-opacity="0.9"/>
+
+  <rect x="267" y="40" width="266" height="30" rx="15" fill="#22D3EE" fill-opacity="0.08" stroke="#22D3EE" stroke-opacity="0.35"/>
+  <circle cx="287" cy="55" r="3.5" fill="#22D3EE"/>
+  <text x="301" y="60" textLength="214" lengthAdjust="spacing" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="600" fill="#67E8F9">YAZILIM GELİŞTİRİCİ</text>
+
+  <text x="400" y="146" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="78" font-weight="700" letter-spacing="-1" fill="url(#name)">Melih</text>
+  <rect x="372" y="164" width="56" height="4" rx="2" fill="url(#accent)"/>
+
+  <text x="400" y="204" text-anchor="middle" font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="18" fill="#94A3B8">backend <tspan fill="#22D3EE">·</tspan> gerçek zamanlı sistemler <tspan fill="#22D3EE">·</tspan> geliştirici araçları</text>
+</svg>
